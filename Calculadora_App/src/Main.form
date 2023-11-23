@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="535" height="433"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6ec99" class="javax.swing.JTextField" binding="txtArea">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <font name="Calibri" size="24" style="2"/>
+        </properties>
+      </component>
+      <component id="de935" class="javax.swing.JButton" binding="button_exp">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="exp"/>
+        </properties>
+      </component>
+      <component id="a2a8e" class="javax.swing.JButton" binding="button_division">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value=" / "/>
+        </properties>
+      </component>
+      <component id="169c3" class="javax.swing.JButton" binding="Button_7">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value=" 7 "/>
+        </properties>
+      </component>
+      <component id="b344d" class="javax.swing.JButton" binding="Button_8">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="f2dc3" class="javax.swing.JButton" binding="Button_9">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="2e7b0" class="javax.swing.JButton" binding="Button_multiplicacion">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="222c2" class="javax.swing.JButton" binding="Button_4">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value=" 4 "/>
+        </properties>
+      </component>
+      <component id="36189" class="javax.swing.JButton" binding="Button_5">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="e43c4" class="javax.swing.JButton" binding="Button_6">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="b511a" class="javax.swing.JButton" binding="Button_resta">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="ead63" class="javax.swing.JButton" binding="Button_1">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value=" 1 "/>
+        </properties>
+      </component>
+      <component id="cba02" class="javax.swing.JButton" binding="Button_2">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="3a43c" class="javax.swing.JButton" binding="Button_3">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="fdd91" class="javax.swing.JButton" binding="Button_0">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value=" 0 "/>
+        </properties>
+      </component>
+      <component id="3f72f" class="javax.swing.JButton" binding="Button_punto">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="5565b" class="javax.swing.JButton" binding="Button_igual">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="b70b1" class="javax.swing.JButton" binding="Button_suma">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <hspacer id="dc5c0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="10d5c">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="e9803">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="391fb">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="de51e" class="javax.swing.JButton" binding="Button_CE">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="CE "/>
+        </properties>
+      </component>
+      <component id="2276" class="javax.swing.JButton" binding="Button_Del">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="Del"/>
+        </properties>
+      </component>
+      <vspacer id="316c5">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="22334" class="javax.swing.JButton" binding="Button_negativos">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="20" style="0"/>
+          <text value="neg"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
